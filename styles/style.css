@@ -13,14 +13,17 @@ body {
     color: #fff;
 }
 .card {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 1rem;
     border-radius: 10px;
     background: linear-gradient(rgb(56, 55, 55),rgb(9, 9, 9))
+}
+
+.big-card {
+
 }
 
 .card h2 {
@@ -40,7 +43,7 @@ body {
 }
 
 .stats {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
