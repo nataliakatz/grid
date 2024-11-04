@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
 }
 .container {
-    min-height: 700px;
+  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
